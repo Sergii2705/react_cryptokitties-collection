@@ -8,13 +8,13 @@ import { BackToTopButton } from '../BackToTopButton/BackToTopButton';
 import { SortType } from '../../types/SortType';
 import { CardsPerPageType } from '../../types/CardsPerPageType';
 import { SortBar } from '../SortBar/SortBar';
-import { Loader } from '../Loader/Loader';
+import { Loader } from '../Loaders/Loader';
 import { wait } from '../../utils/wait';
 import { ErrorMessage } from '../ErrorMessage/ErrorMessage';
 import './Main.scss';
 
 const BASE_URL = 'https://ftl-cryptokitties.fly.dev/api/crypto_kitties';
-const LOADING_DELAY = 1000;
+const LOADING_DELAY = 1000; // Delay to demonstrate the data loading process
 
 export const Main = () => {
   const [visibleCards, setVisibleCards] =useState<TypeKitty[]>([]);

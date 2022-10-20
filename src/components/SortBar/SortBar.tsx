@@ -60,6 +60,7 @@ export const SortBar: React.FC<Props> = (props) => {
       />
       
       <Select  
+      className="selects__cards-per-page"
         value={cardsPerPage}
         onChange={handlerChangeCardsPerPage}
         options={optionsSelectCardsPerPage} 

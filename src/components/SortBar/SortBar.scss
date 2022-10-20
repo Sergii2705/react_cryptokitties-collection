@@ -11,6 +11,11 @@
   padding-top: 15px;
   font-size: 16px;
 
+  &__cards-per-page {
+    justify-self: center;
+    width: 80px;
+  }
+
   @each $size, $resolution in $columns-resolutions-select {
     @media (min-width: $resolution) {
       order: 2;

@@ -1,7 +1,7 @@
 import InfiniteScroll from 'react-infinite-scroll-component';
 import { TypeKitty } from '../../types/TypeKitty';
 import { Card } from '../Card/Card';
-import { Loader } from '../Loader/Loader';
+import { Loader } from '../Loaders/Loader';
 import './CardsList.scss';
 
 interface Props {
