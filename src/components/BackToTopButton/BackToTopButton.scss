@@ -1,0 +1,22 @@
+.upward {
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  width: 100px;
+  height: 100px;
+  background: url(arrow.ico);
+  background-size: cover;
+  cursor: pointer;
+  opacity: 0;
+  animation: show 2s forwards;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0
+  }
+  
+  100% {
+    opacity: .75
+  }
+}

@@ -1,0 +1,67 @@
+// @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+            -23px 0 20px -23px rgba(0, 0, 0, .6),
+            23px 0 20px -23px rgba(0, 0, 0, .6),
+            inset 0 0 40px rgba(0, 0, 0, .1);
+  transition: transform 300ms linear;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  &__img-available {
+    position: absolute;
+    width: 60px;
+    align-self: center;
+    transform: translate(-105px, 15px);
+  }
+
+  &__img-not-available {
+    position: absolute;
+    width: 270px;
+    align-self: center;
+    opacity: .30;
+    transform: translateY(65px);
+  }
+
+  &__title {
+    position: relative;
+    top: 10px;
+  }
+
+  &__name {
+    // // font-family: 'Modak', cursive;
+    // font-weight: 400;
+    margin-top: 5px;
+    position: relative;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  &__category {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+  }
+
+    &__img {
+    width: 100%;
+    align-self: center;
+  }
+  
+  &__price {
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #F2453E;
+  }
+}

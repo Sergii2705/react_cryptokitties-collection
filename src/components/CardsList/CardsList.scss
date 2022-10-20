@@ -1,0 +1,23 @@
+@import "../../variables.scss";
+
+.catalog {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: $card-width;
+  justify-content: center;
+  gap: 48px;
+
+  @each $column, $resolution in $columns-resolutions {
+    @media (min-width: $resolution) {
+      grid-template-columns: repeat($column, $card-width);
+    }
+  }
+}
+
+.endMessage {
+  color: black;
+  padding: 25px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+}

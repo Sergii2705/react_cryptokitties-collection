@@ -1,0 +1,19 @@
+@import "./variables.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Open Sans', Arial, Segoe UI, Roboto, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: #EEEEEE;
+}
+
+h3, p {
+  margin: 0;
+  padding: 0;
+}
