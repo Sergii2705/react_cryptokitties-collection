@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react_cryptokitties-collection/static/css/main.6b2a2aa9.css",
+    "main.js": "/react_cryptokitties-collection/static/js/main.94ba7f99.js",
+    "static/media/available.png": "/react_cryptokitties-collection/static/media/available.d9a0fbf8f0a52436a8ff.png",
+    "static/media/arrow.ico": "/react_cryptokitties-collection/static/media/arrow.6d7f0f4297483fe4b8e2.ico",
+    "static/media/no-image.png": "/react_cryptokitties-collection/static/media/no-image.67e007934f0681d1d21e.png",
+    "index.html": "/react_cryptokitties-collection/index.html",
+    "main.6b2a2aa9.css.map": "/react_cryptokitties-collection/static/css/main.6b2a2aa9.css.map",
+    "main.94ba7f99.js.map": "/react_cryptokitties-collection/static/js/main.94ba7f99.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b2a2aa9.css",
+    "static/js/main.94ba7f99.js"
+  ]
+}
